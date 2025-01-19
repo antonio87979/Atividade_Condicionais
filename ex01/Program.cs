@@ -5,6 +5,7 @@
 Console.WriteLine("digite um número");
 int num = int.Parse(Console.ReadLine());
 
+//% 2 = mutiplos de 2 e diferentes de 0
 if (num % 2 == 0)
 {
     Console.WriteLine($"O número {num} é par.");
